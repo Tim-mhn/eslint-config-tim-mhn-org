@@ -1,0 +1,33 @@
+{
+  "name": "@tim-mhn-org/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tim-mhn/eslint-config-tim-mhn-org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tim-mhn/eslint-config-tim-mhn-org/issues"
+  },
+  "homepage": "https://github.com/Tim-mhn/eslint-config-tim-mhn-org#readme",
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.34.0",
+    "@typescript-eslint/parser": "^5.34.0",
+    "eslint": "^8.22.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=3",
+    "eslint-config-prettier": "^8.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.34.0",
+    "@typescript-eslint/parser": "^5.34.0"
+  }
+}
